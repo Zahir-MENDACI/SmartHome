@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10101C"
+    android:paddingLeft="16dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="16dp"
+    tools:context=".Acceuil">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:textColor="#FFF"
+        android:padding="5dp"
+        android:src="@drawable/ic_send_file"
+        android:id="@+id/Lougout"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My"
+        android:textColor="#FFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"
+        android:id="@+id/TV1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMART HOME"
+        android:textColor="#FFF"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:layout_below="@+id/TV1"
+        android:id="@+id/TV2"/>
+
+
+
+    <ImageView
+        android:id="@+id/LED"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/circle_button"
+        android:padding="15dp"
+        android:src="@drawable/ic_led" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="15dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/circle_button"
+        android:src="@drawable/ic_porte"
+        android:id="@+id/Gestion"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="15dp"
+        android:layout_marginLeft="41dp"
+        android:layout_toRightOf="@+id/Gestion"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/circle_button"
+        android:src="@drawable/ic_bluetoothh"
+        android:id="@+id/Dis"/>
+
+    <ImageView
+        android:id="@+id/TG"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="270dp"
+        android:layout_toRightOf="@+id/LED"
+        android:background="@drawable/circle_button"
+        android:padding="15dp"
+        android:src="@drawable/ic_temp" />
+
+
+
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/v4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-26dp" />
+
+
+</RelativeLayout>

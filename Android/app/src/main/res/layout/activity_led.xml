@@ -1,0 +1,195 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="#10101C"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".LED">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:textColor="#FFF"
+        android:padding="5dp"
+        android:background="@drawable/circle_button"
+        android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+        android:id="@+id/Dis"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.3"
+        android:src="@drawable/ic_led"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My"
+        android:textColor="#FFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"
+        android:id="@+id/TV1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMART HOME"
+        android:textColor="#FFF"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:layout_below="@+id/TV1"
+        android:id="@+id/TV2"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/TV2"
+        android:layout_marginTop="100dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED 1"
+                android:textSize="30dp"
+                android:textColor="#FFF"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="On"
+                android:background="@drawable/rounded_corners"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/On1"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Off"
+                android:background="@drawable/rounded_corners2"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/Off1"/>
+            <SeekBar
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:progress="1"
+                android:id="@+id/seekBar1"
+                android:max="255"
+                android:layout_marginLeft="15dp"
+                android:progressDrawable="@drawable/seekbar_style"
+                android:thumb="@drawable/custom_thumb"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lumn"
+                android:layout_alignTop="@+id/textView3"
+                android:layout_toRightOf="@+id/button4"
+                android:layout_marginLeft="6dp"
+                android:layout_marginStart="6dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_above="@+id/seekBar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:text="LED 2"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="On"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/rounded_corners"
+                android:id="@+id/On2"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Off"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/rounded_corners2"
+                android:id="@+id/Off2"/>
+
+            <SeekBar
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:progress="1"
+                android:id="@+id/seekBar2"
+                android:max="255"
+                android:layout_marginLeft="15dp"
+                android:progressDrawable="@drawable/seekbar_style"
+                android:thumb="@drawable/custom_thumb"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:text="LED 3"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="On"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/rounded_corners"
+                android:id="@+id/On3"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Off"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/rounded_corners2"
+                android:id="@+id/Off3"/>
+
+            <SeekBar
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:progress="1"
+                android:id="@+id/seekBar3"
+                android:max="255"
+                android:layout_marginLeft="15dp"
+                android:progressDrawable="@drawable/seekbar_style"
+                android:thumb="@drawable/custom_thumb"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
