@@ -1,4 +1,4 @@
-Application Android de SmartHome.
+Application Android de SmartHome codée en Java.
 
 L'application permet le control des LED, portes, Volets et ventilateurs par Bluetooth en utilisant une carte Arduino Uno et un module Bluetooth HC-06
 et indicateur de température et taux d'humidité et detecteur de gaz en utilisant ThingSpeak
