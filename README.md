@@ -1,6 +1,7 @@
 Application Android de SmartHome.
 
 L'application permet le control des LED, portes, Volets et ventilateurs par Bluetooth en utilisant une carte Arduino Uno et un module Bluetooth HC-06
+et indicateur de température et taux d'humidité et detecteur de gaz en utilisant ThingSpeak
 
 ![Login](https://user-images.githubusercontent.com/75799200/110397684-9aff9400-8072-11eb-9397-8f763515ee1f.png)
 ![Inscription](https://user-images.githubusercontent.com/75799200/110397678-9a66fd80-8072-11eb-9519-9d6ca5fc6412.png)
